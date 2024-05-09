@@ -91,7 +91,8 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`🔗 Listo para sentir el ritmo de Doxa? 💫: http://localhost:${port}`);
+    console.log(`🔗 Siente el ritmo
+    Feel the Rythm 💫: http://localhost:${port}`);
 });
 
 printWatermark();
