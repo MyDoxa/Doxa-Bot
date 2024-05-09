@@ -91,7 +91,7 @@ app.get('/', (req, res) => {
     res.sendFile(imagePath);
 });
 app.listen(port, () => {
-    console.log(`🔗 Feel the Rythm 💫: http://localhost:${port}`);
+    console.log(`Feel the Rythm 💫: http://localhost:${port}`);
 });
 
 printWatermark();
